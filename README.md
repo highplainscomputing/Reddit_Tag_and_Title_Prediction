@@ -1,4 +1,4 @@
-# Reddit_Tag_and_Title_Prediction
+# Reddit Tag and Title Prediction
 
 ### Overview
 
