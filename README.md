@@ -8,14 +8,12 @@ This project focuses on leveraging transformer models for the task of predicting
 
 1. [Data Preparation](#data-preparation)
    - [Overview](#overview)
-   - [Usage](#usage)
    - [Dependencies](#dependencies)
 
 2. [Tag and Title Prediction](#tag-and-title-prediction)
    - [Overview](#overview)
-   - [Model Training](#model-training)
-   - [Evaluation](#evaluation)
-   - [Dependencies](#dependencies)
+   - [What is Transformers ?](#What is Transformers ?)
+   - [What is fine-tuning in Transformers?](#What is fine-tuning in Transformers?)
 
 ### Data Preparation
 
