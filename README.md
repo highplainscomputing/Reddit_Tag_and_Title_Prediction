@@ -4,6 +4,10 @@
 
 This project focuses on leveraging transformer models for the task of predicting tags and titles. The implementation involves two main components: **Data Preparation** and **Tag and Title Prediction**. The former covers all the necessary preprocessing tasks required for model training and evaluation, while the latter involves training a transformer model using the `simpletransformers` library and the T5Model class, fine-tuned with a custom dataset.
 
+### Project Goal
+
+The goal of this project is to predict missing values of Tag and Title column using transformer techniques.
+
 ### Table of Contents
 
 1. [Data Preparation](#data-preparation)
