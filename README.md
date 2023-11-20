@@ -12,8 +12,8 @@ This project focuses on leveraging transformer models for the task of predicting
 
 2. [Tag and Title Prediction](#tag-and-title-prediction)
    - [Overview](#overview)
-   - [What is Transformers ?](#What is Transformers ?)
-   - [What is fine-tuning in Transformers?](#What is fine-tuning in Transformers?)
+   - [What is Transformers ?](#WhatisTransformers?)
+   - [What is fine-tuning in Transformers?](#Whatisfine-tuninginTransformers?)
 
 ### Data Preparation
 
