@@ -26,6 +26,13 @@ The goal of this project is to predict missing values of Tag and Title column us
 The **data preparation** component is crucial for creating a reliable dataset that can be used for training and evaluating the transformer model. It encompasses tasks such as data cleaning, tokenization, and any other preprocessing steps required to format the data appropriately.
 Notebook perform all the necessary step for model training and convert it into required format according to the model.
 
+#### Data conversion
+![Before preprocessing](https://github.com/highplainscomputing/Reddit_Tag_and_Title_Prediction/blob/main/demo%20(2).png)
+
+![arrow](https://t3.ftcdn.net/jpg/02/06/94/70/360_F_206947090_ujVMfvIu4vq6YczeDUIZ37AMCB1VnK6Y.jpg)
+
+![After preprocessing](https://github.com/highplainscomputing/Reddit_Tag_and_Title_Prediction/blob/main/demo%20(1).png)
+
 ### Dependencies
 - pandas
 - numpy
@@ -50,4 +57,23 @@ Fine-tuning is a process in which a pre-trained model is further trained on a ne
 The idea behind fine-tuning Transformer models is that they have already been trained on a large corpus of text data, and therefore have already learned many useful representations of language. By fine-tuning the model on a new task, the model can use these pre-learned representations as a good starting point, and learn task-specific information from the new task data.
 The process of fine-tuning a Transformer model involves unfreezing some or all of the layers of the pre-trained model and training them on the new task data using a task-specific loss function. The remaining layers can be kept frozen, preserving the pre-learned representations and preventing overfitting on the small task-specific data.
 
-  
+### How to use
+#### For Data Preparation
+- First you need to run Data_preparation.ipynb file  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1w13QIOo18d520py29JuSWetvACy38vTd)
+- Run all cells and if you want to use your own data please see the dataset columns, notebook is designed for reddit data.
+- After all execution download csv files.  
+#### For Tag prediction adn Tag and Title prediction
+- You need to open tag_prediction.ipynb file  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1PZzZEck_jgtF2kObu-H6nzltd_6v4odN)
+- or
+-  You need to open tag_and_title_prediction.ipynb file  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/18vFTk2phq-n6OIZici1vUu6wh2H5JCU0)
+- In this notebook you need to have all csv data that are in this repo. It's upto to you if you want to upload it many or you can use this command.
+```bash
+  !curl -Lo <path-to-be-saved> <dataset-link>
+```
+
+here is an example of how to do it in colab
+```bash
+!curl -Lo /content/InceptionResnet_Chest_X_ray.h5 https://huggingface.co/HuzaifaHPC/INCRES_Chest_X_ray_3.h5/resolve/main/InceptionResnet_Chest_X_ray.h5
+```
+- Create you wandb account and create your wandb project. Here is a [link](https://wandb.ai/site)
+- please provide your wandb project name and its API in notebook
